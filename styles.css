@@ -1,0 +1,76 @@
+.center-add-todo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+
+    
+}
+.add-todo{
+    display: flex;
+    height:28px;
+
+}
+
+body{
+    background-color:rgb(89, 179, 149);
+}
+.rectangle{
+    display: flex;
+    justify-content: center;
+    flex-direction:  column;
+    margin: auto;
+    background-color:cornsilk;
+    width:750px;
+    margin-top:30px;
+    padding:20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0,0,0, 0.48) 6px 2px 16px 0px, rgba(0,0,0, 0.3) -6px -2px 16px 0px;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.todo-title{
+    height:28px;
+    border-radius: 3px;
+}
+.date-picker, .update-date{
+    height:30px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+.delete-button, .update-button, .todo-button{
+    height:34px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width:50%;
+    
+}
+.list-item{
+    align-self: start;
+    white-space: nowrap;
+    margin-top:2px;
+}
+.checkbox{
+    margin-right:10px;
+    border-radius: 5px;
+}
+.update-text{
+    height:28px;
+    border-radius: 5px;
+}
+
+.edit-button{
+    height: 34px;
+    margin-left: 28px;
+    border-radius: 5px;
+}
